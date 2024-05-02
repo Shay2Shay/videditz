@@ -1,6 +1,6 @@
 from moviepy.editor import VideoFileClip, AudioFileClip
 
-def add_audio_to_video(video_path="input_video.mp4", audio_path="input_audio.mp3"):
+def add_audio_to_video(video_path="toothless-dance.mp4", audio_path="input_audio.mp3"):
     output_path = f"{video_path[:-4]}-{audio_path[:-4]}.mp4"
     video_clip = VideoFileClip(video_path)
 
